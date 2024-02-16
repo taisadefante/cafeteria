@@ -34,3 +34,21 @@ li {
 li a:hover {
   font-weight: bold;
 }
+
+/*---------------------------*/
+
+.painel {
+  background: url(./images/painel.jpg) center center no-repeat;
+  height: 600px;
+  margin-top: 10px;
+}
+
+.painel h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transition: translatey(-50%);
+}
