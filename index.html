@@ -1,99 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafeteria</title>
+    <title>Code Café</title>
     <link
       rel="shortcut icon"
       href="./src/images/favicon.ico"
       type="image/x-icon"
     />
-
-    <link rel="stylesheet" href="./src/reset.css" />
-
-    <link rel="stylesheet" href="./src/style.css" />
-
     <meta
-      name="descrition"
-      content="Cafeteria especializada em café Gourmet de alta qualidade"
+      name="description"
+      content="Cafeteria especializada em cafés Gourmet de alta qualidade"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html" class="logo"><h1>Cafeteria</h1></a>
+    <header class="cabecalho">
+      <a href="index.html" class="logo">
+        <h1>Code Café</h1>
+      </a>
 
       <nav>
         <ul>
-          <li><a href="#quem-somos">Quem somos</a></li>
-          <li><a href="#onde-estamos">Onde estamos</a></li>
+          <li><a href="#quem-somos">Que Somos</a></li>
+          <li><a href="#onde-estamos">Onde Estamos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="painel">
         <h2>Aqui o café é só o começo.</h2>
       </section>
 
-      <section id="quem-somos" class="secao-com-texto">
+      <section class="secao-com-texto" id="quem-somos">
         <header>
-          <img src="./src/images/logo-secoes.png" alt="" />
+          <img src="./src/images/logo-secoes.png" />
           <h2>Quem Somos</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            aliquid rem quasi laboriosam non sunt distinctio animi omnis,
-            ducimus quos at iure in itaque quae quas eos obcaecati eveniet
-            saepe. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur assumenda doloribus nemo laboriosam optio veritatis
-            quidem perferendis? Sapiente totam asperiores ducimus, et modi
-            voluptatem doloremque nam neque iure similique sunt.
-          </p>
         </header>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute
+        </p>
       </section>
+
       <section class="ladrilho">
         <div class="grande"></div>
         <div class="pequeno grao"></div>
         <div class="pequeno"></div>
         <div class="medio"></div>
       </section>
-      <section id="onde-estamos" class="secao-com-texto onde-estamos">
+
+      <section class="secao-com-texto onde-estamos" id="onde-estamos">
         <header>
-          <img src="./src/images/logo-secoes.png" alt="" />
+          <img src="./src/images/logo-secoes.png" />
           <h2>Onde Estamos</h2>
-          <p>
-            Avenida ......, 200, <br />
-            São Paulo - SP
-          </p>
         </header>
+        <p>Avenida Brigadeiro Faria Lima, 444 São Paulo</p>
       </section>
-      <section id="contato" class="contato">
+
+      <section class="contato" id="contato">
         <div class="texto">
           <h2>Contato</h2>
           <address>
-            Telefone: (51) 9-9999-9999 <br />
-            Email: contato@codecafe.com <br /><br />
-            Horário de atendimento:<br />
-            seg a sex - 9h até 18h
+            Telefone: (51) 9-9999-9999<br />
+            Email: contato@codecafe.com<br /><br />
+
+            Horário de atendimento: <br />seg a sex - 9h até 18h
           </address>
         </div>
       </section>
     </main>
+
     <footer class="rodape">
-      <a href="index.html">
-        <img src="./src/images/logo.jpg" alt="" class="logo" />
+      <a href="index.html" class="logo">
+        <img src="src/images/logo.jpg" />
       </a>
 
       <ul>
-        <li><a href="#quem-somos">Quem somos</a></li>
-        <li><a href="#onde-estamos">Onde estamos</a></li>
+        <li><a href="#quem-somos">Quem Somos</a></li>
+        <li><a href="#onde-estamos">Onde Estamos</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
 
@@ -101,18 +102,19 @@
         <div class="redes-sociais">
           <a href="#" target="_blank">
             <img
-              src="./src//images/face.png"
-              alt=""
-              title="Logo Facebook"
               class="facebook"
+              title="Logo Facebook"
+              alt="Logo Facebook"
+              src="src/images/face.png"
             />
           </a>
+
           <a href="#" target="_blank">
             <img
-              src="./src//images/insta.png"
-              alt=""
-              title="Logo Facebook"
-              class="instagran"
+              title="Logo Instagram"
+              alt="Logo Instagram"
+              class="instagram"
+              src="src/images/insta.png"
             />
           </a>
         </div>
